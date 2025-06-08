@@ -11,5 +11,4 @@ RUN chmod 755 /usr/local/tomcat/webapps/*.war
 EXPOSE 8080
 
 # Start Tomcat
-CMD ["catalina.sh", "run"]
-~                          
+CMD ["catalina.sh", "run"]                        
